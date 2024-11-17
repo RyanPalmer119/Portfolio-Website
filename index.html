@@ -9,61 +9,102 @@
 <body>
 
     <!-- Hero Section -->
-    <section class="container-fluid bg-primary text-white text-center py-5" style="background-image: url('path-to-your-image.jpg'); background-size: cover; background-position: center;">
+    <section class="container-fluid bg-primary text-white text-center py-5">
         <h1>Welcome to My Portfolio</h1>
-        <p>I am a Software Engineering student, passionate about coding, game development, and AI.</p>
+        <p>Software Engineering Student | Game Developer | AI Enthusiast</p>
         <a href="#about" class="btn btn-light">Learn More About Me</a>
     </section>
 
     <!-- About Me Section -->
     <section id="about" class="container py-5">
         <h2>About Me</h2>
-        <p>Hello! I'm Ryan Palmer, a Software Engineering student at Bournemouth University. I'm passionate about web development, game development, and machine learning. I enjoy building practical projects, working in fast-paced environments, and learning new technologies during my placement year.</p>
+        <p>
+            Hello! I'm Ryan Palmer, a passionate Software Engineering student at Bournemouth University. 
+            My skills span web development, game design, and machine learning. I thrive in collaborative and fast-paced environments, 
+            demonstrated by my Hackathon wins and academic excellence.
+        </p>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" class="container py-5">
-        <h2>Skills</h2>
-        <ul class="list-group">
-            <li class="list-group-item">HTML</li>
-            <li class="list-group-item">CSS</li>
-            <li class="list-group-item">JavaScript</li>
-            <li class="list-group-item">Java</li>
-            <li class="list-group-item">Python</li>
-            <li class="list-group-item">C#</li>
-            <li class="list-group-item">Git</li>
-            <li class="list-group-item">Unity</li>
-            <li class="list-group-item">TensorFlow</li>
-        </ul>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="container py-5">
-        <h2>My Projects</h2>
+        <h2>Technical Skills</h2>
         <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="project-image1.jpg" class="card-img-top" alt="Project 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Project 1</h5>
-                        <p class="card-text">A brief description of the project.</p>
-                        <a href="https://github.com/yourusername/project1" class="btn btn-primary" target="_blank">View on GitHub</a>
-                    </div>
-                </div>
+            <div class="col-md-6">
+                <h4>Programming Languages</h4>
+                <ul class="list-unstyled">
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Java, Python, C#, Visual Basic</li>
+                </ul>
             </div>
-            <!-- Repeat for more projects -->
+            <div class="col-md-6">
+                <h4>Frameworks & Tools</h4>
+                <ul class="list-unstyled">
+                    <li>Flask, Bootstrap, Unity</li>
+                    <li>Git, TensorFlow, SQL (Oracle)</li>
+                </ul>
+            </div>
         </div>
     </section>
 
-    <!-- CV Section -->
-    <section id="cv" class="container py-5">
-        <h2>My CV</h2>
+    <!-- Experience Section -->
+    <section id="experience" class="container py-5">
+        <h2>Experience</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Project Manager, Stage Zero Games</h4>
+                <p>May 2023 – Present</p>
+                <ul>
+                    <li>Designed 3D art in Blockbench and programmed games using Unity and GitHub.</li>
+                    <li>Collaborated with a team of designers and artists on creative projects.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>Assembly Operator, Dextra Group Plc</h4>
+                <p>May 2022 – Aug 2022, Jun 2023 – Aug 2023</p>
+                <ul>
+                    <li>Performed quality checks and ensured safety protocols during assembly processes.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-        <!-- Link to Download CV -->
+    <!-- Hackathons Section -->
+    <section id="hackathons" class="container py-5 bg-light">
+        <h2>Hackathon Achievements</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Teemil x ClickASnap Hackathon</h4>
+                <p>Winner of Development Prize</p>
+                <ul>
+                    <li>Developed a feature linking ClickASnap and Teemil using APIs and Generative AI.</li>
+                    <li>Collaborated with a team to deliver a working demo within one week.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>ClickASnap Hackathon</h4>
+                <p>Winner of Teamwork Prize</p>
+                <ul>
+                    <li>Designed a reels feature that suggests photos based on user preferences.</li>
+                    <li>Presented the project at an exhibition to industry experts.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="container py-5">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Duke of Edinburgh Award (Bronze, Silver, Gold)</li>
+            <li>British Physics Olympiad Senior Physics Challenge (Bronze Award)</li>
+        </ul>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="container py-5 bg-light">
+        <h2>My CV</h2>
         <p>Click below to download my CV:</p>
         <a href="assets/pdf/Ryan_Palmer_CV.pdf" class="btn btn-primary" download>Download My CV</a>
-
-        <!-- Embed CV PDF -->
         <h3 class="mt-5">Or, view my CV below:</h3>
         <iframe src="assets/pdf/Ryan_Palmer_CV.pdf" width="100%" height="600px"></iframe>
     </section>
@@ -71,6 +112,10 @@
     <!-- Footer Section -->
     <footer class="container text-center py-4">
         <p>&copy; 2024 Ryan Palmer. All Rights Reserved.</p>
+        <div>
+            <a href="https://www.linkedin.com/in/ryanpalmer119" class="btn btn-outline-primary btn-sm" target="_blank">LinkedIn</a>
+            <a href="https://github.com/RyanPalmer119" class="btn btn-outline-dark btn-sm" target="_blank">GitHub</a>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-KyZXEJf3L5/K6wATvuTnKQzvxdOMNOa6R7RaFWxJ2CZmy5zD5lL9+VgmUl5JFSuM" crossorigin="anonymous"></script>
